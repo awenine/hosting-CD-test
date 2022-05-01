@@ -17,4 +17,5 @@ jobs:
         server: 107.180.26.65
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        local-dir: ./dist/
         server-dir: /public_html/hosting-CD-test/
